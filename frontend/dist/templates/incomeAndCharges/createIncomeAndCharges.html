@@ -1,0 +1,22 @@
+ <div class="content flex-grow-1">
+        <h1 class='content-title text-primary-emphasis'>Создание дохода/расхода</h1>
+        <div class="form">
+            <select id="selectType" class="form-control mb-2">
+                <option selected hidden>Тип...</option>
+                <option>доход</option>
+                <option>расход</option>
+            </select>
+<!--            <input type="text" placeholder="Категория..." class="form-control mb-2">-->
+            <select id="selectCategory" class="form-control mb-2">
+                <option selected hidden>Категория</option>
+            </select>
+            <input type="number" placeholder="Сумма в $..." class="form-control mb-2">
+            <input type="text" placeholder="Дата..." class="date form-control mb-2" id="dateInput">
+            <input type="text" placeholder="Комментарий..." class="form-control mb-4">
+            <div class="form-actions">
+                <div class="btn btn-success me-2" id="create">Создать</div>
+                <div class="btn btn-danger" id="cancel">Отмена</div>
+            </div>
+        </div>
+    </div>
+

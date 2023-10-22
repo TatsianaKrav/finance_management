@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+body {
+    background: #FFFFFF;
+    font-family: Roboto-Medium, sans-serif;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.content {
+    padding: 100px 65px 0 60px;
+    position: relative;
+}
+
+.income-title, .charges-title {
+    font-family: Roboto-Medium, sans-serif;
+    margin-bottom: 40px;
+    line-height: 47px;
+}
+
+.income-item, .charges-item {
+    padding: 20px 100px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.item-title {
+    color: #290661;
+}
+
+.income-item:not(:last-child), .charges-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.btn {
+    box-sizing: border-box;
+    font-size: 14px;
+    /*padding: 12px 16px;*/
+}
+
+.btn-primary {
+    width: 134px;
+}
+
+.btn-danger {
+    width: 88px;
+}
+
+.empty-item {
+    padding: 44px 168px;
+}
+
+.plus {
+    color: #CED4DA;
+    text-decoration: none;
+}
+
+.modal {
+    /*max-width: 530px;*/
+    /*padding: 40px !important;*/
+    top: 25%;
+}
+
+
+.modal-content {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #290661;
+}
+
+.modal-footer .btn-danger {
+    width: 107px;
+}
